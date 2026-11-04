@@ -31,7 +31,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -o MoneyAlert-InOut-Options-Source.zip -d work
+          unzip -o MoneyAlert-InOut-Options-Source-Fixed.zip -d work
 
       - name: Compile APK
         run: gradle -p work/MoneyAlert :app:assembleDebug
