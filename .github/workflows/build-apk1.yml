@@ -31,7 +31,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -o MoneyAlert-Android-Source-Download.zip -d work
+          unzip -o MoneyAlert-Debug-Logo-Updated.zip -d work
 
       - name: Compile APK
         run: gradle -p work/MoneyAlert :app:assembleDebug
